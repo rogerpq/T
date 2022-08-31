@@ -44,7 +44,7 @@ async def start(client, message):
                                             "✨قناتنا", url="https://t.me/Repthon"),
                                          InlineKeyboardButton(
 
-                                            "قناتنا على اليوتيوب", url="https://youtube.com/channel/UC-zRRPaD5kTKFXd-Io3mVXw")
+                                            "قناتنا على اليوتيوب", url="https://youtube.com/channel/UCS2l9rZy_hRThF9-1MKOszQ")
                                     ]]
                             ),
             disable_web_page_preview=True,        
@@ -61,7 +61,7 @@ async def help(client, message):
 
 ☘️ المبرمج : @ZQ_LO
 
-@EITHON1</b>""",
+@Repthon</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -80,7 +80,7 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>حول هذا البوت!</b>
 
-<b>☘️ المبرمج :</b> <a href="https://t.me/TTTLL0">FORM SIYRA🇸🇾</a>
+<b>☘️ المبرمج :</b> <a href="https://t.me/ZQ_LO">FORM Iraq🇮🇶</a>
 
 <b>🔆اللغة:</b> <a href="https://www.python.org/">Python 3</a>
 
