@@ -1,35 +1,30 @@
 {
-    "name": "Telegraph Bot",
-    "description": "A bot that can upload photos and video to telegraph.",
-    "logo": "https://telegra.ph/file/0535321a4a7ad9c3e3364.jpg",
+    "name": "eighthon",
+    "description": "User bot for telegram !",
+    "stack": "container",
+    "logo": "https://graph.org/file/0eab2a7cc000a59535d18.png",
+    "repository": "https://github.com/rick1128/eighthon2",
     "keywords": [
-        "Telegraph",
-        "Uploader",
-        "Telegram Bot",
-        "FZ BOTS"
+        "python",
+        "chatbot",
+        "telegrambot"
     ],
-    "website": "https://filmszilla.com",
-    "repository": "https://github.com/Janithsadanuwan/TelegraphUploaderBot",
-    "success_url": "https://t.me/Repthon",
+    "website": "https://github.com/rick1128/eighthon2",
     "env": {
-        "BOT_TOKEN": {
-            "description": "ارسل توكن البوت من @BotFather",
-            "value": ""
+        "API_ID": {
+            "description": "ايبي ايدي",
+            "value": "",
+            "required": true
         },
         "API_HASH": {
-            "description": "ارسل ايبي هاش من my.telegram.org",
-            "value": ""
+            "description": "ايبي هاش",
+            "value": "",
+            "required": true
         },
-        "API_ID": {
-            "description": " ارسل الايبي ايدي من my.telegram.org",
-            "value": ""
+        "BOT_TOKEN": {
+            "description": "توكن البوت",
+            "value": "",
+            "required": true
         }
-    },
-    "addons": [],
-    "buildpacks": [
-            "url": "heroku/python"
-        }
-
-       }
     }
 }
