@@ -10,9 +10,9 @@
     ],
     "website": "https://filmszilla.com",
     "repository": "https://github.com/Janithsadanuwan/TelegraphUploaderBot",
-    "success_url": "https://t.me/Infinity_BOTs",
+    "success_url": "https://t.me/Repthon",
     "env": {
-        "TG_BOT_TOKEN": {
+        "BOT_TOKEN": {
             "description": "ارسل توكن البوت من @BotFather",
             "value": ""
         },
@@ -20,7 +20,7 @@
             "description": "ارسل ايبي هاش من my.telegram.org",
             "value": ""
         },
-        "APP_ID": {
+        "API_ID": {
             "description": " ارسل الايبي ايدي من my.telegram.org",
             "value": ""
         }
@@ -29,12 +29,6 @@
     "buildpacks": [
         {
             "url": "heroku/python"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
         }
     }
 }
