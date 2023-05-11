@@ -27,8 +27,9 @@
     },
     "addons": [],
     "buildpacks": [
-        {
             "url": "heroku/python"
         }
+
+       }
     }
 }
